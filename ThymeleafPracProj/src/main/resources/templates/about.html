@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" th:replace="index::layout(~{::section})">
+<head>
+	<meta charset="UTF-8" />
+	<title>Document Thymeleaf</title>
+</head>
+<body>
+	
+	<section>this is new about section</section>
+	<p><hr></p>
+	<h1 th:text="'Hello '+${name}+'!'"></h1>
+	<h1 th:text="'Hello '+${nameList}+'!'"></h1>
+	<ul>
+	<li th:each="n, status: ${name} ">
+	 <span th:text="${status.index+1}+' '+${n}"></span>
+	</li>
+	</ul> 
+</body>
+</html>

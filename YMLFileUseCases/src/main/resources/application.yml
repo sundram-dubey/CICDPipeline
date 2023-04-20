@@ -1,0 +1,40 @@
+info:
+ per: 
+     id: 101
+     pwd: sun2991
+     marks:
+      - 90
+      - 80
+      - -70
+     
+     
+     nickNames:
+      - Techie
+      - Pro
+      - Dev
+     
+     phoneNumbers:
+      - 324234
+      - 342342
+     
+     facultyVehicles: 
+      hk: accent
+      murali: i10
+      sudhkar: i20
+     
+     countryCaps:
+      india: new Delhi
+      china: Bejing
+      USA: washingtonDC
+     favFruits:
+      apple: green
+      grapes: green
+      banana: yellow
+     #Has-A property
+     adrs:
+      doorNo: hyd
+      street: 2000
+      locality: HCLTech
+      
+     
+    

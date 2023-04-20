@@ -1,0 +1,23 @@
+@charset "ISO-8859-1";
+
+body {
+	background: #e2e2e2 !important;
+}
+
+.bg-primary {
+	background: #4cbfa6 !important;
+}
+
+.banner {
+	width: 100%;
+	height: 93vh;
+	background: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .8)),
+		url(../imagesfile/scmbg1.png);
+	background-size: cover;
+	color: white;
+}
+
+.my-card {
+	padding: 20px;
+	background: #FFFFFF;
+}
